@@ -32,7 +32,7 @@ class TargetView(object):
         # EDIT - MARTINI configuration
         source = SOSource(
             distance=3.657 * U.Mpc,
-            rotation={'L_coords': (self.incl * U.deg, self.az * U.deg)},
+            rotation={'L_coords': (self.incl, self.az)},
             ra=0. * U.deg,
             dec=0. * U.deg,
             SO_instance=self.SO
