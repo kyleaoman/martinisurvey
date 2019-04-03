@@ -19,4 +19,4 @@ def SOautoload(snap, obj):
 
 
 def SOautorotate(SO):
-    SO.rotate(L_coords=('mHI_g', 'xyz_g', 'vxyz_g', 0, 0))
+    SO.rotate(L_coords=('mHI_g', 'xyz_g', 'vxyz_g'))
